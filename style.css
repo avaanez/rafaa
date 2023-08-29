@@ -1,0 +1,104 @@
+.b{
+    background-color: rosybrown;
+}
+
+
+.i {
+   
+    margin-left: 90ex;
+    margin-top: 50ex;
+}
+
+.butao {
+
+    background-color: rgb(37, 138, 226);
+    height: 200px;
+    width: 500px;
+    font-size: 70px;
+
+}
+
+.parent {
+
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    grid-template-rows: repeat(13, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-left: 20px;
+    margin-block-end: 100px;
+
+}
+
+
+
+.div1 {
+    grid-area: 6 / 6 / 9 / 9;
+}
+
+.div2 {
+    grid-area: 3 / 3 / 4 / 4;
+   
+}
+
+.div3 {
+    grid-area: 5 / 2 / 6 / 3;
+   
+}
+
+.div4 {
+    grid-area: 7 / 2 / 8 / 3;
+}
+
+.div5 {
+    grid-area: 9 / 2 / 10 / 3;
+    
+}
+
+.div6 {
+    grid-area: 11 / 3 / 12 / 4;
+}
+
+.div7 {
+    grid-area: 12 / 5 / 13 / 6;
+}
+
+.div8 {
+    grid-area: 12 / 7 / 13 / 8;
+}
+
+.div9 {
+    grid-area: 12 / 9 / 13 / 10;
+}
+
+.div10 {
+    grid-area: 11 / 11 / 12 / 12;
+}
+
+.div11 {
+    grid-area: 9 / 12 / 10 / 13;
+}
+
+.div12 {
+    grid-area: 7 / 12 / 8 / 13;
+}
+
+.div13 {
+    grid-area: 5 / 12 / 6 / 13;
+}
+
+.div14 {
+    grid-area: 3 / 11 / 4 / 12;
+}
+
+.div15 {
+    grid-area: 3 / 9 / 4 / 10;
+}
+
+.div16 {
+    grid-area: 3 / 7 / 4 / 8;
+}
+
+.div17 {
+    grid-area: 3 / 5 / 4 / 6;
+}
